@@ -1,0 +1,16 @@
+[programs.localnet]
+optifi_exchange = "FXgK3y7xQyoMkEgow6e6i7o14y1FnnHyRjgrucNPHNfb"
+
+[programs.devnet]
+optifi_exchange = "FVWhLLPYPPPVtmrAwSgsy4cF84z888hamnyXYdtFN2jT"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+#test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 test/**/*.ts"
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 test/optifi.ts"
