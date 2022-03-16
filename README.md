@@ -4,7 +4,7 @@ The core OptiFi program on Solana - made with Anchor and Serum
 
 ## Note
 
-The OptiFi program is still under development, some ** hidden code **
+The OptiFi program is still under development, some code is hidden
 
 
 ## How to run 
